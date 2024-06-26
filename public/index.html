@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Pessoal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3116615500.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav id = "navbar" class="navbar navbar-expand-lg bg-dark p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold " href="index.html">GUSTAVO ANDRADE VIANA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ms-auto navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link ms-2 text-white hover-color fw-bold" aria-current="page" href="#perfil">PERFIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-2 text-white hover-color fw-bold" aria-current="page"
+                            href="#repositorios">REPOSITÓRIOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-2 text-white hover-color fw-bold" href="#conteudo-sugerido">CONTEÚDO SUGERIDO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-2 text-white hover-color fw-bold" href="#colegas-de-trabalho" tabindex="-1"
+                            aria-disabled="true">COLEGAS DE TRABALHO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main id="container" class="container-fluid bg-secondary m-auto p-auto border border-dark border-5">
+
+        <section id="perfil" class="p-2">
+
+            <section id="perfil">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <h2 class="text-white mx-auto fs-4 fw-bold">PERFIL</h2>
+                        <div class="border-bottom py-1"></div>
+                    </div>
+                </div>
+            
+                <div class="container-fluid">
+                    <div class="row justify-content-start my-2">
+                        <div class="col-md-3">
+                        </div>
+            
+                        <div class="col-md-2">
+                            <img id="profile-img" src="" class="img-fluid rounded-pill px-3" alt="Imagem de perfil">
+                        </div>
+                        <div class="col-md-4">
+                            <h2 id="profile-name" class="text-white m-0 fs-4 py-1"></h2>
+                            <p id="profile-description" class="text-white m-0 fs-5 py-2"></p>
+                            <p id="profile-location" class="text-white m-0 fs-5 fw-bold py-0"></p>
+            
+                            <div id= "sociais" class="py-0" style="display: flex;">
+                               
+                               
+                               
+                            </div>
+                        </div>
+            
+                        <div class="col-md-3">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <section id="repositorios" class="p-2">
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <text class="text-white m-0 fs-4 fw-bold"> REPOSITÓRIOS </text>
+                    <div class="border-bottom py-1"></div>
+                </div>
+            </div>
+
+
+            <div id="repositorios" class="container my-2">
+                <div class="row">
+                    <div id="repositorios-list" class="row"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="conteudo-sugerido" class="p-2">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <h2 class="text-white m-0 fs-4 fw-bold">CONTEÚDO SUGERIDO</h2>
+                    <div class="border-bottom py-1"></div>
+                </div>
+            </div>
+        
+            <div class="d-flex justify-content-center rounded">
+                <div id="carouselExampleIndicators" class="carousel slide my-2 col-md-6" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <!-- Carousel indicators will be generated dynamically via JavaScript -->
+                    </div>
+                    <div class="carousel-inner rounded">
+                        <!-- Carousel items will be generated dynamically via JavaScript -->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="colegas-de-trabalho" class="py-2">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <h2 class="text-white fs-4 fw-bold">COLEGAS DE TRABALHO</h2>
+                    <div class="border-bottom py-1"></div>
+                </div>
+            </div>
+        
+            <div class="container py-2">
+                <div class="row" id="colegas-list">
+                    <!-- Aqui serão inseridos os colegas de trabalho -->
+                </div>
+            </div>
+        </section>
+
+        <footer class="">
+            <div class="container">
+                <div class="row justify-content-center">
+
+
+                    <div style="display: flex;">
+                        <i class="fa-solid fa-copyright my-auto mx-1" style="color: #ffffff;"></i>
+                        <text class="text-white fs-5"> 2024 . All rights reserved. Gustavo Andrade Viana.</text>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script type = "module" src = "assets/scripts/main.js"></script>
+</body>
+
+</html>

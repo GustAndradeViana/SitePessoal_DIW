@@ -1,0 +1,86 @@
+{
+    "conteudoSugerido": [
+        {
+            "id": 1,
+            "titulo": "Melhores práticas JavaScript",
+            "descricao": "Um texto detalhado sobre as melhores práticas em JavaScript.",
+            "urlImagem": "https://hermes.dio.me/articles/cover/fb0c211d-cdcd-40c3-9094-06aca027e8f9.jpg",
+            "urlConteudo": "https://www.dio.me/articles/as-melhores-praticas-em-javascript-para-iniciantes"
+        },
+        {
+            "id": 2,
+            "titulo": "Vídeo tutorial React",
+            "descricao": "Aprenda React com este tutorial completo.",
+            "urlImagem": "https://i.ytimg.com/vi/hd2B7XQAFls/sd1.jpg",
+            "urlConteudo": "https://www.youtube.com/watch?v=hd2B7XQAFls&t"
+        },
+        {
+            "id": 3,
+            "titulo": "Guia de CSS Flexbox",
+            "descricao": "Um guia abrangente para dominar o CSS Flexbox.",
+            "urlImagem": "https://www.origamid.com/projetos/flexbox-guia-completo/guia-flexbox.png",
+            "urlConteudo": "https://origamid.com/projetos/flexbox-guia-completo/"
+        },
+        {
+            "id": 4,
+            "titulo": "Introdução ao TypeScript",
+            "descricao": "Tutorial introdutório para aprender TypeScript.",
+            "urlImagem": "https://i.ytimg.com/vi/lCemyQeSCV8/hq720.jpg",
+            "urlConteudo": "https://www.youtube.com/watch?v=lCemyQeSCV8"
+        },
+        {
+            "id": 5,
+            "titulo": "Podcast sobre Desenvolvimento Web",
+            "descricao": "Um podcast discutindo as últimas tendências em desenvolvimento web.",
+            "urlImagem": "https://i.ytimg.com/vi/4nepEd9BxPs/hq720.jpg",
+            "urlConteudo": "https://www.youtube.com/watch?v=4nepEd9BxPs"
+        }
+    ],
+
+
+
+    "colegasDeTrabalho": [
+        {
+            "id": 1,
+            "urlFoto": "https://avatars.githubusercontent.com/u/166767898?v=4",
+            "nome": "Pedro Henrique",
+            "urlPerfilGitHub": "https://github.com/PHnsilva"
+        },
+        {
+            "id": 2,
+            "urlFoto": "https://avatars.githubusercontent.com/u/164252996?v=4",
+            "nome": "Gabriel Nonato",
+            "urlPerfilGitHub": "https://github.com/GpNonato"
+        },
+        {
+            "id": 3,
+            "urlFoto": "https://avatars.githubusercontent.com/u/165243953?v=4",
+            "nome": "Henrique Carneiro",
+            "urlPerfilGitHub": "https://github.com/henriquec18"
+        }
+    ],
+
+
+
+    
+    "links": [
+        {
+            "id": 1,
+            "nome": "LinkedIn",
+            "urlIcone": "",
+            "urlRedirecionamento": "https://www.linkedin.com/in/gustavo-andrade-viana-b0a36827b/"
+        },
+        {
+            "id": 2,
+            "nome": "Instagram",
+            "urlIcone": "",
+            "urlRedirecionamento": "https://www.instagram.com/gustavoo_aandrade/"
+        },
+        {
+            "id": 3,
+            "nome": "GitHub",
+            "urlIcone": "",
+            "urlRedirecionamento": "https://github.com/GustAndradeViana"
+        }
+    ]
+}

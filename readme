@@ -1,0 +1,17 @@
+# Para testar, siga os passos:
+
+1. Abra o terminal e execute o comando:
+npx json-server db/db.json
+
+2. Abra o arquivo index.html com o live server dentro da pasta public
+
+
+# Existem três base de dados:
+- Conteúdos sugeridos
+- Colegas de trabalho
+- Links
+
+# A API do github é usada para três fins:
+- Buscar dados do perfil
+- Buscar a lista de repositórios
+- Buscar detalhes de um repositório
